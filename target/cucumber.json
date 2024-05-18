@@ -1,0 +1,87 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7121679900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GoumentGarden.open_browser()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Successfully register with valid data",
+        "description": "",
+        "id": "gourment-garden;successfully-register-with-valid-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5117366200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on the Registration Page",
+            "match": {
+              "location": "GoumentGarden.user_is_on_the_Registration_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 258879300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enter the vaild details",
+            "match": {
+              "location": "GoumentGarden.user_enter_the_vaild_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3159813600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click on create",
+            "match": {
+              "location": "GoumentGarden.click_on_create()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 335237700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "navigate to the products page",
+            "match": {
+              "location": "GoumentGarden.navigate_to_the_products_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Registeration_with_valid_data"
+          }
+        ]
+      }
+    ],
+    "name": "Gourment Garden",
+    "description": "",
+    "id": "gourment-garden",
+    "keyword": "Feature",
+    "uri": "Feature/GourmetGarden.feature",
+    "tags": []
+  }
+]
